@@ -52,6 +52,14 @@ Before you begin, ensure you have met the following requirements:
   2.Open Your Browser:
   Navigate to `http://localhost:4200` to view the application.
   
+**Login Details**
+
+The default credentials for the application are:
+
+Username: **admin@exmaple.com**
+
+Password: **password123**
+
 
 **5.Docker Setup**
 
