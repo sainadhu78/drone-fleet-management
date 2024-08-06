@@ -1,0 +1,215 @@
+{
+  "users": [{ "username": "admin@example.com", "password": "password123" }],
+  "drones": [
+    {
+      "id": "Drone1",
+      "status": "Available",
+      "flight_hours": 120,
+      "battery_status": "80%",
+      "last_known_location": [40.712776, -74.005974],
+      "current_mission": "Survey field A",
+      "maintenance_logs": [
+        {
+          "date": "2024-01-10",
+          "description": "Battery replacement",
+          "technician": "John Doe"
+        },
+        {
+          "date": "2024-02-15",
+          "description": "Rotor inspection",
+          "technician": "Jane Smith"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQse5_RogEgeTcJJ9LcTT-kiItD9pltkSFeGg&s"
+    },
+    {
+      "id": "Drone2",
+      "status": "In Maintenance",
+      "flight_hours": 85,
+      "battery_status": "60%",
+      "last_known_location": [34.052235, -118.243683],
+      "current_mission": "Delivery",
+      "maintenance_logs": [
+        {
+          "date": "2024-03-05",
+          "description": "Propeller replacement",
+          "technician": "Alice Brown"
+        },
+        {
+          "date": "2024-04-20",
+          "description": "Software update",
+          "technician": "Bob Johnson"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7t4MFFP4Cmy-MH9xSdBTZkGWL39LvFn_7KW1uN3-Z47ioYgA9v__ZTphSnr_p2NUdEN8&usqp=CAU"
+    },
+    {
+      "id": "Drone3",
+      "status": "Unavailable",
+      "flight_hours": 200,
+      "battery_status": "50%",
+      "last_known_location": [51.507351, -0.127758],
+      "current_mission": "Search and Rescue",
+      "maintenance_logs": [
+        {
+          "date": "2024-05-10",
+          "description": "Sensor calibration",
+          "technician": "Emily Davis"
+        },
+        {
+          "date": "2024-06-12",
+          "description": "Engine check",
+          "technician": "Michael Wilson"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJd3-2hKkT5Pm5273sJmk7FZUOj_2W5RVK6HQ9luDwE__LMAqfNH-Mu8JAX5ZuosD7fDA&usqp=CAU"
+    },
+    {
+      "id": "Drone4",
+      "status": "Available",
+      "flight_hours": 95,
+      "battery_status": "70%",
+      "last_known_location": [48.856613, 2.352222],
+      "current_mission": "Surveillance",
+      "maintenance_logs": [
+        {
+          "date": "2024-07-01",
+          "description": "Camera repair",
+          "technician": "Sarah Moore"
+        },
+        {
+          "date": "2024-08-25",
+          "description": "Battery check",
+          "technician": "David Lee"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BPnfXKDUbFt5Ur7GniSJ-VXYL2F9MYNReA&s"
+    },
+    {
+      "id": "Drone5",
+      "status": "Available",
+      "flight_hours": 50,
+      "battery_status": "90%",
+      "last_known_location": [35.689487, 139.691711],
+      "current_mission": "Mapping",
+      "maintenance_logs": [
+        {
+          "date": "2024-01-15",
+          "description": "Calibration",
+          "technician": "Linda Green"
+        },
+        {
+          "date": "2024-03-10",
+          "description": "Propeller adjustment",
+          "technician": "James Hall"
+        }
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/4X-UHJ_Agridrones_d.jpg/1200px-4X-UHJ_Agridrones_d.jpg"
+    },
+    {
+      "id": "Drone6",
+      "status": "In Use",
+      "flight_hours": 180,
+      "battery_status": "65%",
+      "last_known_location": [39.904202, 116.407394],
+      "current_mission": "Inspection",
+      "maintenance_logs": [
+        {
+          "date": "2024-02-20",
+          "description": "Rotor replacement",
+          "technician": "Jessica Clark"
+        },
+        {
+          "date": "2024-04-22",
+          "description": "Software patch",
+          "technician": "William Martinez"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQse5_RogEgeTcJJ9LcTT-kiItD9pltkSFeGg&s"
+    },
+    {
+      "id": "Drone7",
+      "status": "Available",
+      "flight_hours": 110,
+      "battery_status": "75%",
+      "last_known_location": [55.755825, 37.617298],
+      "current_mission": "Delivery",
+      "maintenance_logs": [
+        {
+          "date": "2024-05-15",
+          "description": "Battery replacement",
+          "technician": "Karen Lewis"
+        },
+        {
+          "date": "2024-07-30",
+          "description": "Engine maintenance",
+          "technician": "George Anderson"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7t4MFFP4Cmy-MH9xSdBTZkGWL39LvFn_7KW1uN3-Z47ioYgA9v__ZTphSnr_p2NUdEN8&usqp=CAU"
+    },
+    {
+      "id": "Drone8",
+      "status": "Unavailable",
+      "flight_hours": 240,
+      "battery_status": "55%",
+      "last_known_location": [-33.86882, 151.209296],
+      "current_mission": "Survey",
+      "maintenance_logs": [
+        {
+          "date": "2024-03-01",
+          "description": "Camera calibration",
+          "technician": "Lisa Walker"
+        },
+        {
+          "date": "2024-05-25",
+          "description": "Rotor inspection",
+          "technician": "Daniel Scott"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJd3-2hKkT5Pm5273sJmk7FZUOj_2W5RVK6HQ9luDwE__LMAqfNH-Mu8JAX5ZuosD7fDA&usqp=CAU"
+    },
+    {
+      "id": "Drone9",
+      "status": "In Maintenance",
+      "flight_hours": 140,
+      "battery_status": "60%",
+      "last_known_location": [40.73061, -73.935242],
+      "current_mission": "Search and Rescue",
+      "maintenance_logs": [
+        {
+          "date": "2024-04-01",
+          "description": "Battery check",
+          "technician": "Susan Young"
+        },
+        {
+          "date": "2024-06-10",
+          "description": "Propeller adjustment",
+          "technician": "Timothy Adams"
+        }
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BPnfXKDUbFt5Ur7GniSJ-VXYL2F9MYNReA&s"
+    },
+    {
+      "id": "Drone10",
+      "status": "Available",
+      "flight_hours": 80,
+      "battery_status": "85%",
+      "last_known_location": [37.774929, -122.419418],
+      "current_mission": "Inspection",
+      "maintenance_logs": [
+        {
+          "date": "2024-07-15",
+          "description": "Engine calibration",
+          "technician": "Rachel King"
+        },
+        {
+          "date": "2024-08-05",
+          "description": "Battery replacement",
+          "technician": "Paul Robinson"
+        }
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/4X-UHJ_Agridrones_d.jpg/1200px-4X-UHJ_Agridrones_d.jpg"
+    }
+  ]
+}

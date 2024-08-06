@@ -1,0 +1,13 @@
+<div class="content" style="width: 80%">
+  <ag-grid-angular
+    style="padding-top: 30px"
+    [class]="themeClass"
+    [rowData]="rowData"
+    [columnDefs]="colDefs"
+    [defaultColDef]="defaultColDef"
+    [domLayout]="'autoHeight'"
+    [pagination]="true"
+    [paginationPageSize]="5"
+    [paginationPageSizeSelector]="[5, 10]"
+  />
+</div>

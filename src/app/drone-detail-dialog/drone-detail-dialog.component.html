@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>Drone Details</h2>
+<div mat-dialog-content>
+  <p><strong>Drone ID:</strong> {{ drone.id }}</p>
+  <p><strong>Status:</strong> {{ drone.status }}</p>
+  <p><strong>Total Flight Hours:</strong> {{ drone.flight_hours }}</p>
+  <p><strong>Battery Status:</strong> {{ drone.battery_status }}</p>
+  <p>
+    <strong>Last Known Location:</strong> {{ drone.last_known_location[0] }},
+    {{ drone.last_known_location[1] }}
+  </p>
+  <p><strong>Current Mission:</strong> {{ drone.current_mission }}</p>
+
+  <div mat-dialog-actions class="main-button">
+    <button mat-raised-button (click)="viewMaintenanceLogs(data)">
+      View Maintenance Logs
+    </button>
+  </div>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Close</button>
+</div>

@@ -1,0 +1,41 @@
+<div>
+  <mat-toolbar color="primary">
+    <span style="font-size: larger">SUIND</span>
+    <span class="spacer"></span>
+    <input
+      matInput
+      [formControl]="searchControl"
+      [matAutocomplete]="auto"
+      placeholder="Search"
+    />
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option
+        *ngFor="let drone of filteredDrones | async"
+        [value]="drone.id"
+        (click)="openDialog(drone)"
+      >
+        {{ drone.id }}
+      </mat-option>
+    </mat-autocomplete>
+
+    <span class="spacer"></span>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="logout()">
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+    <span style="font-size: medium; color: aliceblue">{{ userEmail }}</span>
+  </mat-toolbar>
+  <div class="container">
+    <div class="card" *ngFor="let drone of drones" (click)="openDialog(drone)">
+      <img [src]="drone.url" alt="Drone Image" />
+      <div class="card-body">
+        <h5 class="card-title">Drone ID: {{ drone.id }}</h5>
+        <p class="card-text">Status: {{ drone.status }}</p>
+      </div>
+    </div>
+  </div>
+</div>
